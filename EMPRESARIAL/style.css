@@ -1,0 +1,342 @@
+@font-face {
+    font-family: Hind;
+    src: url(font/Hind-Regular.ttf);
+}
+/* body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+height: 190vmin;
+    width: 100%;
+}
+.sec{
+    background: url(img/tim-stief-YFFGkE3y4F8-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.navegador{
+    height: 9%;
+    width: 100%;
+    background-color: rgb(59, 59, 59);
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -80px;
+    font-size: 2vmin;
+}
+.navegador ul{
+    list-style: none;
+    display: flex;
+}
+.navegador ul li{
+    padding: 1.7em;
+}
+.navegador ul li a {
+    text-decoration: none;
+    color: #ffecec;
+    display: flex;
+    font-family: 'Hind';
+}
+.contenedor{
+    padding: 0;
+    margin: 0;
+    height: 55%;
+    width: 50%;
+    background-color: rgb(73, 73, 73);
+    border-radius: 50px;
+    margin: auto auto;
+    box-shadow: 9px 9px 8px rgba(0, 0, 0, .5);
+}
+.title{
+    font-family: 'Hind';
+    font-size: 3vmin;
+    margin: 5% 46%;
+    color: rgb(210, 210, 210);
+}
+.text{
+    padding: 0;
+    margin: 0;
+    height: 40vh;
+    width: 50%;
+    background-color: rgb(73, 73, 73);
+    border-radius: 50px;
+    margin: auto auto;
+    box-shadow: 9px 9px 8px rgba(0, 0, 0, .5);
+}
+p{
+    padding: 1em;
+    text-align: justify;
+    font-family: 'Hind';
+    color: antiquewhite;
+    font-size: 2vmin;
+} */
+:root {
+  --negro: #393939;
+  --tipo-principal: Helvetica, Arial, sans-serif;
+  --tipo-secundaria: Verdana;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --negro: #ececec;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    -webkit-animation: none !important;
+            animation: none !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: baseline;
+}
+img, picture, video, iframe, figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+p a {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+  font-size: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+::-moz-selection {
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+::selection {
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+
+form, input, textarea, select, button, label {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  background-color: transparent;
+  display: block;
+
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+table, tr, td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+svg {
+  width: 100%;
+  display: block;
+  fill: currentColor;
+}
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: var(--tipo-principal);
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+    /* Codigo */
+
+    .header{
+        width: 100%; /*Ancho*/
+        background-color: #282828;
+        padding: 1.5em; /*Separacion de los contenidos*/
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    .header .h1{ /*Etiqueta del logo*/
+        /* background-color: aqua; */
+        font-size: 3vmin;
+        font-family: 'Hind';
+    }
+    .header .a{
+        font-size: 2.5vmin;
+        padding: 0 30px;
+        font-family: 'Hind';
+    }
+    .header .button{
+        /* background-color: crimson; */
+        display: none; /*Ocultamos svg*/
+    }
+    .header .svg{
+        height: 2em;
+        width: 2em;
+        fill: white;
+    }
+    .header .nav{ /*Etiqueta del navegador*/
+        /* background-color: bisque; */
+    }
+    .header .ul{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-items: center; 
+    }
+    .header .li{
+        margin: 0 .5em;
+    }
+    section{
+      width: 100%;
+      height: 100vh;
+    }
+    .section{
+      background: url(img/jack-millard-zjyP-UYI-ko-unsplash.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+    .contenedor{
+      width: 100%;
+      height: 50%;
+      /* background-color: black; */
+      display: flex;
+      justify-content: center;
+    }
+    .flex .contenedor .contenedor2{
+      display: flex;
+      flex-direction: column;
+      height: 90%;
+    }
+    .contenedor .h1-2{
+      display: flex;
+      justify-content: center center;
+      align-items: center center;
+      top: 20px;
+    }
+    .h1-2{
+      margin: 0;
+      padding: 0;
+      background-color: #282828;
+      height: 100%;
+      width: 55%;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 2em;
+      font-family: 'Hind';
+      text-transform: uppercase;
+      text-align:center;
+      color: white;
+      box-shadow: 8px 8px 5px rgba(255, 255, 255, 0.3);
+      font-size: 1.8vmin;
+      border-radius: 8px;
+    }
+    .contenedor2{
+      display: flex;
+      justify-content: center;
+      top: 50px;
+    }
+    .p2{
+      margin: 0;
+      padding: 0;
+      background-color: #282828;
+      height: 100%;
+      width: 55%;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 5em;
+      font-family: 'Hind';
+      text-transform: uppercase;
+      text-align:center;
+      color: white;
+      box-shadow: 8px 8px 5px rgba(255, 255, 255, 0.3);
+      font-size: 1.8vmin;
+      border-radius: 8px;
+    }
+
+    @media screen and (max-width:780px){
+        .header .button{
+            display: block;
+            cursor: pointer;
+        }
+        .header .nav{
+            width: 100%;
+            /* display: none; */
+            height: 0;
+            pointer-events: none;
+            overflow: hidden;
+            transition: all .5s ease;
+
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        header .nav.activo{
+            /* display: block; */
+            height: 50vh;
+            pointer-events: auto;
+        }
+        .header .ul{
+            flex-direction: column;
+        }
+        .header .li{
+            margin: 1rem 0;
+        }
+        .h1-2{
+         height: 70%;
+         width: 90%;
+         font-size: 2.5vmin;
+        }
+        .p2{
+          height: 70%;
+          width: 90%;
+          font-size: 2.5vmin;
+        }
+    }
+
