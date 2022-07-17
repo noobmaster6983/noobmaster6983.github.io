@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(68, 117, 174);
+    background-image:url(img/2440228.jpg);
+   /* width: 100%;*/
+}
+ .terminos{
+     color: white;
+     font-family: calibri;
+     text-align: center;
+ }
+.title{
+    color: white;
+    font-family: Calibri;
+    
+}
+.ll{
+    color: white;
+    font-family: calibri;
+    font-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+.ll:hover{
+    color: gray;
+}
+.box{   
+    background-color: rgb(59, 48, 94);
+    padding: 80px 60px;
+    margin: 40px 650px;
+    box-shadow: 0px 1px 8px rgb(0, 0, 0.1);
+    border-radius: 4px;
+    width: 500px;
+}
+input[type=text]{
+    color: white;
+    background-color: rgb(59, 48, 94);
+    width: 100%;/*Ancho*/
+    padding: 12px 20px; /*Vertical, horizontal*/
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(42, 127, 213);
+    border-radius: 4px;
+    box-sizing: border-box;/**/   
+}
+
+input[type=email]{
+    color: white;
+    background-color: rgb(59, 48, 94);
+    width: 100%;/*Ancho*/
+    padding: 12px 20px; /*Vertical, horizontal*/
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(42, 127, 213);
+    border-radius: 4px;
+    box-sizing: border-box;/**/
+}
+input[type=password]{
+    color: white;
+    background-color: rgb(59, 48, 94);
+    width: 100%;/*Ancho*/
+    padding: 12px 20px; /*Vertical, horizontal*/
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(42, 127, 213);
+    border-radius: 4px;
+    box-sizing: border-box;/**/
+}
+
+
+
+input[type=submit]{
+    width: 100%;
+    background-color: rgb(51, 124, 197);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    transform: scale(1.05,1.05);
+    box-shadow:0px 10px 15px 0px rgba(160, 13, 13, 0.3);
+    background-color: rgb(25, 111, 197);
+}
+p{
+    text-align: center;
+    font-family: calibri;
+}
+a{
+    color: white;
+    font-family: calibri;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+}

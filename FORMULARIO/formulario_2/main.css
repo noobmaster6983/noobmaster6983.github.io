@@ -1,0 +1,79 @@
+.fondo{
+    background-color: rgb(106, 131, 153);
+    background-image: url(img/2440228.jpg);
+}
+.title2{
+    color: white;
+    font-family: calibri;
+}
+.box-2{
+    background-color: rgb(59, 48, 94);
+    padding: 40px 80px;
+    margin: 40px 500px;
+    box-shadow: 0px 1px 8px rgb(0, 0, 0.1);
+    border-radius: 4px;
+}
+input[type=email]{
+    color: white;
+    padding: 12px 20px;
+    background-color: rgb(57, 47, 90);
+    border: solid 1px rgb(42, 127, 213);
+    border-radius: 3px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+}
+input[type=email]:hover{
+    background-color: rgb(23, 48, 129);
+}
+input[type=password]:hover{
+    background-color: rgb(23, 48, 129);
+}
+
+input[type=password]{
+     color: white;
+     padding: 12px 20px;/*Tamaño de la caja del formulario*/
+     background-color: rgb(59, 48, 94);
+     border: solid 1px rgb(42, 127, 213);
+     border-radius: 3px;
+     margin: 8px 0;
+     display: inline-block;
+     box-sizing: border-box;
+     width: 100%;
+}
+.submit2{
+    color: white;
+    font-family: Calibri;
+    background-color: rgb(51, 124, 197);
+    font-size: medium;
+    border-radius: 4px;
+    width: 100%;
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.submit2:hover{
+    background-color: rgb(25, 111, 197);
+    color: gray;
+}
+.submit2:hover{
+    transform: scale(1.05, 1.05);
+    background-color: rgb(25, 111, 197);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+}
+
+p{
+    text-align: center;
+}
+
+a:hover{
+    color: gray;
+}

@@ -204,7 +204,7 @@ body {
         font-family: 'Hind';
     }
     .header .a{
-        font-size: 2.5vmin;
+        font-size: 2.9vmin;
         padding: 0 30px;
         font-family: 'Hind';
     }
@@ -213,13 +213,13 @@ body {
         display: none; /*Ocultamos svg*/
     }
     .header .svg{
-        height: 2em;
-        width: 2em;
+        height: 3em;
+        width: 3em;
         fill: white;
     }
-    .header .nav{ /*Etiqueta del navegador*/
-        /* background-color: bisque; */
-    }
+    /*.header .nav{ Etiqueta del navegador*/
+        /* background-color: bisque; 
+    }*/
     .header .ul{
         display: flex;
         flex-flow: row nowrap;
@@ -259,7 +259,7 @@ body {
     }
     .h1-2{
       margin: 0;
-      padding: 0;
+      padding: 1em;
       background-color: #282828;
       height: 100%;
       width: 55%;
@@ -282,7 +282,7 @@ body {
     }
     .p2{
       margin: 0;
-      padding: 0;
+      padding: 1em;
       background-color: #282828;
       height: 100%;
       width: 55%;
@@ -299,7 +299,7 @@ body {
       border-radius: 8px;
     }
 
-    @media screen and (max-width:780px){
+    @media screen and (max-width:890px){
         .header .button{
             display: block;
             cursor: pointer;
